@@ -28,16 +28,47 @@
 
 
 # Using Asterisk
-a = ("apple", "banana", "cherry", "strawberry", "raspberry")
-(green, yellow, *red) = a
-print(green)
-print(yellow)
-print(red)
+# a = ("apple", "banana", "cherry", "strawberry", "raspberry")
+# (green, yellow, *red) = a
+# print(green)
+# print(yellow)
+# print(red)
 
 
 # Loop Through a Tuple
 # You can loop through the tuple items by using a for loop.
 # Using a for loop we can iterate through each item in a tuple.
-a = ("apple", "banana", "cherry")
-for x in a:
-    print(x)
+# a = ("apple", "banana", "cherry")
+# for x in a:
+#     print(x)
+
+
+# Join Two Tuples
+# To join two or more tuples you can use the + operator:
+# a = ("apple", "banana", "cherry")
+# b = (1, 2, 3)
+# c = a + b
+# print(c)
+
+
+# Check if Item Exists in a Tuple
+# To determine if a specified item is present in a tuple use the in keyword:
+# a = ("apple", "banana", "cherry")
+# if "apple" in a:
+#     print("Yes, 'apple' is in the fruits tuple")
+# else: 
+#     print("No, 'apple' is not in the fruits tuple")
+
+
+# Tuple Methods
+# Python has two built-in methods that you can use on tuples.
+# Method	Description
+# count()	Returns the number of times a specified value occurs in a tuple
+    # index()    Returns the index of the first occurrence of a specified value in a tuple
+# a = ("apple", "banana", "cherry")
+# print(a.count("apple"))
+
+# a = ("apple", "banana", "cherry")
+# print(a.index("cherry"))
+
+
